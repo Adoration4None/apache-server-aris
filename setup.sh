@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NOMBRE_IMAGEN='prueba-script'
+NOMBRE_IMAGEN='apache-server-aris'
 
 systemctl enable docker
 docker build -t $NOMBRE_IMAGEN .
